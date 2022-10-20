@@ -1,2 +1,2 @@
-add_library(libsearchableutils searchableutils.c)
-target_include_directories(libsearchableutils PUBLIC "${CMAKE_SOURCE_DIR}/src/include")
+add_library(searchableutils searchableutils.c)
+target_include_directories(searchableutils PUBLIC "${CMAKE_SOURCE_DIR}/src/include")
