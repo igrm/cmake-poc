@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "searchableutils.h"
 
 int main()
 {
-    printf("Stub code");
+    printf(test());
 }
