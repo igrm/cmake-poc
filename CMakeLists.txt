@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(MakePdfSearchable)
+project(MakePdfSearchable LANGUAGES C CXX)
 set(C_STANDARD C17)
 set(C_STANDARD_REQUIRED True)
 add_subdirectory(src)
